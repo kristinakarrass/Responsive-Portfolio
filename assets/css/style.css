@@ -115,7 +115,7 @@ nav a:active {
 }
 
 .biopic {
-	width: 200px;
+	width: 250px;
 	height: auto;
 	margin-top: 10px;
 	float: left;
@@ -137,7 +137,6 @@ nav a:active {
 h3, .sidebar, h2 {
 	border-bottom: 2px solid #eeeeee;
 	padding-bottom: 20px;
-	margin-top: 15px;
 	line-height: 22px;
 }
 
@@ -237,3 +236,85 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+/*media queries for responsiveness*/
+
+@media screen and (max-width: 980px) {
+
+	.wrapper {
+		max-width: 960px;
+		padding: 30px;
+	}
+
+	.main-section {
+		max-width: 550px;
+	}
+
+	#masterhead {
+		max-width: 960px;
+	}
+
+	.container nav a:last-child {
+		padding-right: 20px;
+	}
+
+	#logo {
+		margin-left: 30px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.wrapper {
+		max-width: 750px;
+		padding: 30px;
+	}
+	.sidebar {
+		float: left;
+		max-width: 750px;
+		text-align: left;
+	}
+
+	.main-section {
+		max-width: 750px;
+	}
+
+	.container nav a:last-child {
+		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	.wrapper {
+		max-width: 620px;
+		padding: 20px;
+	}
+
+	#masterhead{
+		position: fixed;
+	}
+
+	#logo {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.main-section {
+		margin-top: 40px;
+	}
+	
+	.container nav {
+		width: 100%;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.biopic {
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+
+}
