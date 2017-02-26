@@ -311,7 +311,7 @@ input[type=submit] {
 	}
 
 	#masterhead{
-		position: fixed;
+		position: static;
 	}
 
 	#logo {
@@ -334,6 +334,9 @@ input[type=submit] {
 		height: auto;
 		margin-bottom: 30px;
 	}
-
+	
+	#main-container {
+		padding-top: 0;
+	}
 
 }
